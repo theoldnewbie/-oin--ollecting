@@ -1,0 +1,31 @@
+.animatated-object {
+  position: absolute;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+.obj {
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 40px;
+	background: url(images/obj.gif);
+}
+.coin {
+	top: 250px;
+	left: 250px;
+	width: 12px;
+	height: 16px;
+	background: url(images/coin.png);
+}
+#score {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 25px;
+}
+body {
+	background: linear-gradient(to top, #fefcea, #f1da36)
+}
